@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_with_provider_state_management/provider/authprovider.dart';
 import 'package:flutter_with_provider_state_management/provider/count_provider.dart';
 import 'package:flutter_with_provider_state_management/provider/favourite_item_provider.dart';
 import 'package:flutter_with_provider_state_management/provider/slider_provider.dart';
 import 'package:flutter_with_provider_state_management/provider/theme_provider.dart';
-import 'package:flutter_with_provider_state_management/screens/change_theme.dart';
-import 'package:flutter_with_provider_state_management/screens/notifylistener.dart';
+import 'package:flutter_with_provider_state_management/screens/login.dart';
 import 'package:provider/provider.dart';
 
 void main() {
@@ -23,6 +23,7 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider(create: (_) => SliderProvider()),
         ChangeNotifierProvider(create: (_) => FavouriteItemProvider()),
         ChangeNotifierProvider(create: (_) => ThemeChanger()),
+        ChangeNotifierProvider(create: (_) => AuthProvider()),
       ],
 
       child: Builder(
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
           return MaterialApp(
             debugShowCheckedModeBanner: false,
             title: 'Flutter Demo',
-            home: NotifyListener(),
+            home: LoginScreen(),
           );
         },
       ),
