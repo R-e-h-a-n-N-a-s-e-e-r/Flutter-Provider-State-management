@@ -24,5 +24,12 @@ ________________________________________________________________________________
 <img width="354" height="621" alt="Flutter_practice_6 3" src="https://github.com/user-attachments/assets/26b9ce7a-b043-4e37-87d3-a654146ad4a7" />
 
 
+______________________________________________________________________________________________________________________________________________________________________________________
+
+# Used Stateless widget as Stateful using Provider State
+ A counter and a Text Field toggle functionality
+
+<img width="349" height="620" alt="Flutter_practice_6 4" src="https://github.com/user-attachments/assets/d878a753-daab-4084-a59e-108f60ab1bd2" />
+
 
 
