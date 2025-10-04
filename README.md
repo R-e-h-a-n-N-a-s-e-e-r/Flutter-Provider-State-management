@@ -32,4 +32,10 @@ ________________________________________________________________________________
 <img width="349" height="620" alt="Flutter_practice_6 4" src="https://github.com/user-attachments/assets/d878a753-daab-4084-a59e-108f60ab1bd2" />
 
 
+__________________________________________________________________________________________________________________________________________________________________________________
+# Implemented Login page with Provider
+<img width="355" height="624" alt="Flutter_practice_6 5" src="https://github.com/user-attachments/assets/a8e7dba0-aaa7-4eed-82ed-b8c482712ded" />
+
+
+
 
