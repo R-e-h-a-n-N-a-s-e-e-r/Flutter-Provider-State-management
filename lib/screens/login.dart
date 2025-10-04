@@ -57,7 +57,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   child: authProvider.loading
                       ? CircularProgressIndicator(color: Colors.white)
                       : Text(
-                          'Login',
+                          'login',
                           style: TextStyle(
                             color: Colors.white,
                             fontWeight: FontWeight.w600,
